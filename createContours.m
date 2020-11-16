@@ -24,4 +24,3 @@ end
 contCelk{1,k-1} = cont; 
 cont = [];
 end
-% contCelk{1,1} = [];

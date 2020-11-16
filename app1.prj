@@ -1,6 +1,6 @@
 <deployment-project plugin="plugin.ezdeploy" plugin-version="1.0">
   <configuration file="C:\Users\Karel\Desktop\G-code_generator\Slicer_MVP\app1.prj" location="C:\Users\Karel\Desktop\G-code_generator\Slicer_MVP" name="app1" target="target.ezdeploy.standalone" target-name="Application Compiler">
-    <param.appname>Slicer</param.appname>
+    <param.appname>app1</param.appname>
     <param.icon />
     <param.icons />
     <param.version>1.0</param.version>
@@ -11,7 +11,7 @@
     <param.description />
     <param.screenshot />
     <param.guid />
-    <param.installpath.string>\Slicer\</param.installpath.string>
+    <param.installpath.string>\app1\</param.installpath.string>
     <param.installpath.combo>option.installpath.programfiles</param.installpath.combo>
     <param.logo />
     <param.install.notes />
@@ -102,7 +102,7 @@
     <fileset.package />
     <fileset.depfun />
     <build-deliverables>
-      <file location="${PROJECT_ROOT}\app1\for_testing" name="Slicer.exe" optional="false">C:\Users\Karel\Desktop\G-code_generator\Slicer_MVP\app1\for_testing\Slicer.exe</file>
+      <file location="${PROJECT_ROOT}\app1\for_testing" name="app1.exe" optional="false">C:\Users\Karel\Desktop\G-code_generator\Slicer_MVP\app1\for_testing\app1.exe</file>
       <file location="${PROJECT_ROOT}\app1\for_testing" name="readme.txt" optional="true">C:\Users\Karel\Desktop\G-code_generator\Slicer_MVP\app1\for_testing\readme.txt</file>
       <file location="${PROJECT_ROOT}\app1\for_testing" name="splash.png" optional="false">C:\Users\Karel\Desktop\G-code_generator\Slicer_MVP\app1\for_testing\splash.png</file>
     </build-deliverables>

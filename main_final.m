@@ -74,7 +74,7 @@ for i = 1:length(okraj)
         pocVyplni = pocVyplni+1;
     end
 end
-hold off
+
 trajektorieVyplne =[];
 %vypocet celkove trajektorie
 for i = 1:length(vypln)
@@ -82,7 +82,6 @@ for i = 1:length(vypln)
     trajektorieVyplne = [trajektorieVyplne,[vypln(i).pos_x;vypln(i).pos_y;vypln(i).pos_z]];
     
 end
-% figure(2)
 plot3(ax_gr2,trajektorieVyplne(1,:),trajektorieVyplne(2,:),trajektorieVyplne(3,:))
 end
 

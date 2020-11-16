@@ -94,8 +94,8 @@ for i = 1:size(triangles_new,1)
     end
 end
 
-%list formed
-'list formed'
+% %list formed
+% 'list formed'
 triangle_checklist2 = z_triangles;
 for  k = 1:size(z_slices,2)
     
